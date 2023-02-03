@@ -1,4 +1,5 @@
 import "./Home.css";
+import logo
 
 function Home() {
   return (
