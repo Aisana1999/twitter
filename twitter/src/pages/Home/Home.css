@@ -1,3 +1,15 @@
 .home {
   display: flex;
+  height: 100%;
+}
+.leftContainer {
+  width: 25%;
+}
+.centerContainer {
+  width: 45%;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+.rightContainer {
+  width: 30%;
 }

@@ -2,9 +2,9 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home">
-      <div>Left</div>
-      <div>Center</div>
-      <div>Right</div>
+      <div className="leftContainer">Left</div>
+      <div className="centerContainer">Center</div>
+      <div className="rightContainer">Right</div>
     </div>
   );
 }
