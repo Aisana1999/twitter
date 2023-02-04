@@ -2,6 +2,7 @@ import "./Home.css";
 import Logo from "../../Components/Home/Logo/Logo";
 import Feed from "../../Components/Home/Feed/Feed";
 import LoginOption from "../../Components/Home/LoginOption";
+import { useState } from "react";
 
 function Home() {
   return (
