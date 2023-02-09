@@ -1,7 +1,7 @@
 import "./Home.css";
-import Logo from "../../Components/Home/Logo/Logo";
-import Feed from "../../Components/Home/Feed/Feed";
-import LoginOption from "../../Components/Home/LoginOption";
+import Logo from "../../Components/Page/Logo/Logo";
+import Feed from "./Feed/Feed";
+import LoginOption from "../../Components/Trend /LoginOption";
 import { useState } from "react";
 
 function Home() {
