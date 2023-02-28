@@ -1,6 +1,6 @@
 import "./Home.css";
 import Logo from "../../components/Home/Logo/Logo";
-import Feed from "../../components/Home/Feed/Feed;";
+import Feed from "../../components/Home/Feed/Feed";
 import LoginOption from "../../components/Home/LoginOption/LoginOption";
 
 function Home() {
