@@ -83,6 +83,25 @@ function Feed(props) {
         <p className="tag">Sports . LIVE</p>
         <p className="text">Fans celebrate Sania Mirza's Birthday 🥳</p>
       </div>
-  }
+            {
+       trendData.map(data=>
+          <Trend content={data} />
+        ) 
+      }
+      {
+       alltweets.map(data=>(
+        <div>
+          <label>{data.location}</label>
+         <h3 className="tweet">{data.value}</h3>
+         <hr />
+         </div>
+         )
+        ) 
+      }
+    </div>
+  );
+}
+
+ 
 }
 export default Feed;
