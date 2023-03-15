@@ -28,3 +28,14 @@
   padding: 0px 12px !important;
   justify-content: space-between;
 }
+.banner {
+  padding: 12px;
+  height: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 1)),
+    url("https://pbs.twimg.com/semantic_core_img/1578031205722853376/TGyC7sia?format=jpg&name=900x900");
+}
