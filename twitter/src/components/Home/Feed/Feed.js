@@ -19,13 +19,9 @@ function Feed(props) {
   useEffect(() => {
     //task which needs to be managed
     //1.read data from trend.json file
-    fetch("trend.json");
+   
     //2.Data is retrieved
-    .then(res=>{
-      console.log("Raw Data");
-      console.log(res);
-      return res.json();
-    })
+  
     //3.Data is converted .
     .then(convertedData=>{
       //trendData=convertedData;
@@ -83,6 +79,7 @@ function Feed(props) {
         <p className="tag">Sports . LIVE</p>
         <p className="text">Fans celebrate Sania Mirza's Birthday 🥳</p>
       </div>
+      //rendering the trend component for every element in the array
             {
        trendData.map(data=>
           <Trend content={data} />
