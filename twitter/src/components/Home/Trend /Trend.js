@@ -1,5 +1,7 @@
 function Trend(props) {
+  //content- is the same attribute name which you passed from a parent component
   const data = props.content;
+  //passing the data to the properties
   return (
     <div className="trend">
       <p className="header">{data.header}</p>
