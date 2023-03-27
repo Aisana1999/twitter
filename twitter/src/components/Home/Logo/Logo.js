@@ -31,6 +31,19 @@ function Logo(props) {
             </svg>
             &nbsp; Settings
           </a>
+          </li>
+        <li className="option">
+          <a href="/profile">Profile</a>
+        </li>
+        <li>
+          <button
+            type="button"
+            className="btn-tweet"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Tweet
+          </button>
+        </li>
 
   
 
