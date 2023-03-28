@@ -44,6 +44,18 @@ function Logo(props) {
             Tweet
           </button>
         </li>
+        <li>
+          <select
+            name=""
+            id=""
+            onChange={(event) => {
+              console.log(event.target.value);
+            }}>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </li>
+      </ul>
 
   
 
