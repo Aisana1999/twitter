@@ -1,3 +1,11 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Home from "./pages/Home/Home";
+import "bootsrtap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap/dist/js/bootstrap";
+
 function Logo(props) {
   function newTweetReceived(nt) {
     console.log("This is logo component.");
