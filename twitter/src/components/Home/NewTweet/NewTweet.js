@@ -26,8 +26,24 @@ function NewTweet() {
               </svg>
               <a>Everyone can reply</a>
             </div>
+            </form>
+        </div>
+        <div className="modal-footer">
+          <button
+            onClick={handleTweetPost}
+            data-bs-dismiss="modal"
+            type="button"
+            className="btn-tweet btn-form">
+            Tweet
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
 
-              );
+
+            
 }
 
 export default NewTweet;
