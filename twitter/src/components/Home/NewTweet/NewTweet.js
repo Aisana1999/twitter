@@ -1,3 +1,5 @@
+import { useState } from "react";
+import "./NewTweet.css";
 function NewTweet() {
      return (
    <div className="modal-dialog">
