@@ -17,3 +17,6 @@ svg {
   margin-left: 12px;
   color: rgb(29, 155, 240) !important;
 }
+.btn-form {
+  width: 20% !important;
+}
