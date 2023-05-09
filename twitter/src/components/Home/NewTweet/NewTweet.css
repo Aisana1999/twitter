@@ -6,3 +6,14 @@
   color: gray;
   padding: 12px;
 }
+.reply {
+  display: flex;
+  align-items: center;
+}
+svg {
+  color: rgb(29, 155, 240);
+}
+.reply a {
+  margin-left: 12px;
+  color: rgb(29, 155, 240) !important;
+}
