@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./NewTweet.css";
 function NewTweet() {
+  const [tweet, setTweet]=useState("");
+
+  
      return (
    <div className="modal-dialog">
       <div className="modal-content">
