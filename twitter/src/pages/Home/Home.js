@@ -8,11 +8,15 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/js/bootstrap";
 
 function Home() {
+  function newTweetReceived(newTweet) {
+    console.log("This is home component.");
+    console.log(newTweet);
+  }
   return (
     <div className="home">
       <div className="leftContainer">
         {" "}
-        <Logo /> Left
+        <Logo notifyNewTweet={newTweetReceived} /> Left
       </div>
       <div className="centerContainer">
         {" "}
