@@ -5,6 +5,8 @@
   font-size: 24px;
   color: gray;
   padding: 12px;
+  resize: none;
+  outline: none;
 }
 .reply {
   display: flex;
