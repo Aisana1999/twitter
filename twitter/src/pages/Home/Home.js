@@ -20,7 +20,7 @@ function Home() {
       </div>
       <div className="centerContainer">
         {" "}
-        <Feed /> Center
+        <Feed notifyNewTweet={newTweetReceived} /> Center
       </div>
       <div className="rightContainer">
         {" "}
