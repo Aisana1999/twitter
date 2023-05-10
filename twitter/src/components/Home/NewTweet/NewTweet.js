@@ -6,6 +6,9 @@ function NewTweet() {
   function handleTweetChange(event){
     setTweet(event.target.value);
   }
+  function handleTweetPost() {
+    console.log(tweet);
+  }
      return (
    <div className="modal-dialog">
       <div className="modal-content">
