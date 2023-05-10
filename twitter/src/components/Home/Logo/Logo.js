@@ -7,10 +7,10 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/js/bootstrap";
 
 function Logo(props) {
-  function newTweetReceived(nt) {
+  function newTweetReceived(newTweet) {
     console.log("This is logo component.");
-    console.log(nt);
-    props.notifyNewTweet(nt);
+    console.log(newTweet);
+    props.notifyNewTweet(newTweet);
   }
   return (
     <div className="options">

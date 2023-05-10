@@ -7,8 +7,10 @@ function NewTweet() {
     setTweet(event.target.value);
   }
   function handleTweetPost() {
+    props.notifyNewTweet(tweet) //passed the data
     console.log(tweet);
-  }
+    props.notifyNewTweet(tweet);
+  } //function which have been passed to this new tweet componentfrom its parent component.
      return (
    <div className="modal-dialog">
       <div className="modal-content">
