@@ -3,7 +3,9 @@ import "./NewTweet.css";
 function NewTweet() {
   const [tweet, setTweet]=useState("");
 
-  
+  function handleTweetChange(event){
+    setTweet(event.target.value);
+  }
      return (
    <div className="modal-dialog">
       <div className="modal-content">
