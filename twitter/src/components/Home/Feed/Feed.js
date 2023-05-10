@@ -105,6 +105,7 @@ function Feed(props) {
          )
         ) 
       }
+       <NewTweet notifyNewTweet={newTweetReceived} />
     </div>
   );
 }
