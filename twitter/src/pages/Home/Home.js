@@ -12,6 +12,7 @@ function Home() {
     console.log("This is home component.");
     console.log(newTweet);
   }
+
   return (
     <div className="home">
       <div className="leftContainer">

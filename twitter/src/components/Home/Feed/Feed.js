@@ -2,6 +2,11 @@ import "./Feed.css";
 import { useState, useEffect } from "react";
 
 function Feed(props) {
+  function newTweetReceived(newTweet){
+    console.log("This is feed component.");
+    console.log(newTweet);
+    props.notifyNewTweet(newTweet);
+  }
   const [alltweets, setTweets] = useState([]);
 
   useEffect(() => {
