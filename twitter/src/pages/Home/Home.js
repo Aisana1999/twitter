@@ -11,6 +11,8 @@ function Home() {
   console[(tweets, setTweets)] = useState([]);
   function newTweetReceived(newTweet) {
     console.log("This is home component.");
+    tweets.push(newTweet);
+    setTweets(tweets);
     console.log(newTweet);
   }
 
