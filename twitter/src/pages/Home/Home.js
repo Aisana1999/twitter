@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/js/bootstrap";
 
 function Home() {
+  console[(tweets, setTweets)] = useState([]);
   function newTweetReceived(newTweet) {
     console.log("This is home component.");
     console.log(newTweet);
