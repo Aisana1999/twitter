@@ -2,11 +2,7 @@ import "./Feed.css";
 import { useState, useEffect } from "react";
 
 function Feed(props) {
-  function newTweetReceived(newTweet){
-    console.log("This is feed component.");
-    console.log(newTweet);
-    props.notifyNewTweet(newTweet);
-  }
+console.log(props.tweets); //should give us the initial value
   const [alltweets, setTweets] = useState([]);
 
   useEffect(() => {
@@ -96,9 +92,8 @@ function Feed(props) {
         ) 
       }
       {
-       alltweets.map(data=>(
+       props.tweets.map(data=>(
         <div>
-          <label>{data.location}</label>
          <h3 className="tweet">{data.value}</h3>
          <hr />
          </div>
