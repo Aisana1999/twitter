@@ -8,6 +8,13 @@ function NewTweet(props) {
     tweet.value=event.target.value;
     setTweet();
   } //now it has become an object with two properties
+   
+  //creating another function
+  //it will set the location of tweet
+  function handleLocationChange(event){
+    tweet.location=event.target.value;
+    setTweet(tweet);
+  }
 
   function handleTweetPost() {
     props.notifyNewTweet(tweet) //passed the data
