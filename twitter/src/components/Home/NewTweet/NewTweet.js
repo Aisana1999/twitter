@@ -1,10 +1,12 @@
 import { useState } from "react";
 import "./NewTweet.css";
-function NewTweet() {
-  const [tweet, setTweet]=useState("");
+
+function NewTweet(props) {
+  const [tweets, setTweet]=useState([]); //its an object, not a string
 
   function handleTweetChange(event){
-    setTweet({value:event.target.value,userID:1,3});
+    tweet.value=event.target.value;
+    setTweet();
   } //now it has become an object with two properties
 
   function handleTweetPost() {
