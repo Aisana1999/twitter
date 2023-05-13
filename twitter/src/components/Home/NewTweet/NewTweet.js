@@ -33,6 +33,7 @@ function NewTweet(props) {
               className="form-control"
             />
             <textarea
+              value={tweet}
               onChange={handleTweetChange}
               placeholder="What's happening !"
               className="tweet-box"></textarea>
