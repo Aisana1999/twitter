@@ -4,8 +4,9 @@ function NewTweet() {
   const [tweet, setTweet]=useState("");
 
   function handleTweetChange(event){
-    setTweet(event.target.value);
-  }
+    setTweet({value:event.target.value,userID:1,3});
+  } //now it has become an object with two properties
+
   function handleTweetPost() {
     props.notifyNewTweet(tweet) //passed the data
     console.log(tweet);
