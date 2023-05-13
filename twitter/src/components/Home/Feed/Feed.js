@@ -94,6 +94,7 @@ console.log(tweets); //should give us the initial value
       {
        alltweets.map(data=>(
         <div>
+          <label>{data.location} </label>
          <h3 className="tweet">{data.value}</h3>
          <hr />
          </div>
