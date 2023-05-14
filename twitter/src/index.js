@@ -1,4 +1,6 @@
 import React from "react";
+import "./Profile.css";
+import profile from "./pages/Profile/Profile";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 //import App from "./App";
@@ -11,9 +13,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-
   <React.StrictMode>
-    <Home />
+    {/*<Home />*/}
+    <Profile />
   </React.StrictMode>
 );
 
