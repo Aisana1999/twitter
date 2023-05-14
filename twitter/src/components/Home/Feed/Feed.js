@@ -6,7 +6,7 @@ console.log(tweets); //should give us the initial value
   const [alltweets, setTweets] = useState([]);
 
   useEffect(() => {
-    console.log("new tweets");
+    console.log("new tweet");
     setTweets(tweets);
   }, [tweets]);
 

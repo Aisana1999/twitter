@@ -9,7 +9,7 @@ import "bootstrap/dist/js/bootstrap";
 function Logo(props) {
   function newTweetReceived(newTweet) {
     console.log("This is logo component.");
-    console.log(newTweet);
+    console.log(nt);
     props.notifyNewTweet(newTweet);
   }
   return (
