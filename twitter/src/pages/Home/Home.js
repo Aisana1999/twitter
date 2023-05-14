@@ -8,16 +8,17 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/js/bootstrap";
 
 function Home() {
-  const[(tweets, setTweets)] = useState([]);
+  const[(homeTweets, setTweets)] = useState([]);
 
   function newTweetReceived(newTweet) {
+    console.log(newTweet);
     console.log("This is home component.");
     console.log(tweets);
-    const newTweetsArray=[...tweets];
+    const newTweetsArray=[...homeTweets];
     newTweetsArray.push(newTweet);
     console.log(tweets);
     setTweets(newTweetsArray);
-    console.log(newTweet);
+   
   }
 
   return (
