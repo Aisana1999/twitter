@@ -25,7 +25,7 @@ function Home() {
     <div className="home">
       <div className="leftContainer">
         {" "}
-        <Logo notifyNewTweet={newTweetReceived} /> Left
+        <Logo notifyNewHomeTweet={newTweetReceived} /> Left
       </div>
       <div className="centerContainer">
         {" "}

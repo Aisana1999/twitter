@@ -10,7 +10,7 @@ function Logo(props) {
   function newTweetReceived(newTweet) {
     console.log("This is logo component.");
     console.log(nt);
-    props.notifyNewTweet(newTweet);
+    props.notifyNewHomeTweet(newTweet);
   }
   return (
     <div className="options">
