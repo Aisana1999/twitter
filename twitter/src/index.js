@@ -7,6 +7,7 @@ import "./index.css";
 //import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter } from "react-router-dom";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //React function to get div element
@@ -14,7 +15,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    {/*<Home />*/}
+    <BrowserRouter></BrowserRouter>
+    <Home />
     <Profile />
   </React.StrictMode>
 );
