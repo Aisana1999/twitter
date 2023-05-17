@@ -25,3 +25,11 @@ a {
   font-size: 20px;
   font-weight: 700;
 }
+.btn-tweet {
+  background-color: rgb(29, 155, 240);
+  height: 40px;
+  border: none;
+  border-radius: 24px;
+  color: white;
+  width: 60% !important;
+}
