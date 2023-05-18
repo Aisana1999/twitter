@@ -21,8 +21,6 @@ root.render(
         <Route path="/profile" element={<Profile />}></Route>
       </Routers>
     </BrowserRouter>
-    <Home />
-    <Profile />
   </React.StrictMode>
 );
 
