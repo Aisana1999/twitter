@@ -18,6 +18,7 @@ root.render(
     <BrowserRouter>
       <Routers>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/profile" element={<Profile />}></Route>
       </Routers>
     </BrowserRouter>
     <Home />
