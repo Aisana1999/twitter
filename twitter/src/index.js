@@ -7,7 +7,7 @@ import "./index.css";
 //import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //React function to get div element
