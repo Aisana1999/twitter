@@ -1,6 +1,6 @@
 import ".Profile.css";
 import Logo from "../../components/Home/Logo/Logo";
-
+import LoginOption from "../../components/Home/LoginOption/LoginOption";
 function Profile() {
   return (
     <div className="home">
