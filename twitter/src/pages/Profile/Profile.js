@@ -1,3 +1,6 @@
+import ".Profile.css";
+import Logo from "../../components/Home/Logo/Logo";
+
 function Profile() {
   return (
     <div className="home">
