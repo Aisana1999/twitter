@@ -7,6 +7,9 @@ function Profile() {
       <div className="centerContainer">
         <h3>This is Profile</h3>
       </div>
+      <div className="rightContainer">
+        <LoginOption />
+      </div>
     </div>
   );
 }
