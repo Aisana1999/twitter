@@ -4,6 +4,9 @@ function Profile() {
       <div className="leftContainer">
         <Logo />
       </div>
+      <div className="centerContainer">
+        <h3>This is Profile</h3>
+      </div>
     </div>
   );
 }
