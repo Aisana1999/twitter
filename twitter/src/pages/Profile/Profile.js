@@ -5,7 +5,9 @@ function Profile() {
  <head></head>
  <body>
   <div id="root">
-    
+    <div class="profile">
+      <div class="leftContainer"></div>
+    </div>
   </div>
  </body>
 
