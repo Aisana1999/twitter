@@ -9,6 +9,10 @@ function Profile() {
       <div class="leftContainer"></div>
       <div class="centerContainer">
         <h3>profile Page</h3>
+        <div class="profileIn">
+          <div class="p-photo"></div>
+          <div class="p-icon"></div>
+        </div>
       </div>
     </div>
   </div>
