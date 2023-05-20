@@ -14,6 +14,7 @@ function Profile() {
           <div class="p-icon"></div>
         </div>
       </div>
+      <div class="rightContainer"></div>
     </div>
   </div>
  </body>
