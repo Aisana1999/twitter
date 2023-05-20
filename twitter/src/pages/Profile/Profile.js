@@ -7,6 +7,9 @@ function Profile() {
   <div id="root">
     <div class="profile">
       <div class="leftContainer"></div>
+      <div class="centerContainer">
+        <h3>profile Page</h3>
+      </div>
     </div>
   </div>
  </body>
