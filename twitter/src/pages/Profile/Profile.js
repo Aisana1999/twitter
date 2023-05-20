@@ -2,9 +2,12 @@ import ".Profile.css";
 import Logo from "../../components/Home/Logo/Logo";
 import LoginOption from "../../components/Home/LoginOption/LoginOption";
 function Profile() {
-  <div class="header">
-    <h1> Header</h1>
-  </div>;
+ <head></head>
+ <body>
+  <div id="root">
+    
+  </div>
+ </body>
 
   return (
     <div className="home">
