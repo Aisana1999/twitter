@@ -10,7 +10,9 @@ function Profile() {
       <div class="centerContainer">
         <h3>profile Page</h3>
         <div class="profileIn">
-          <div class="p-photo"></div>
+          <div class="p-photo">
+            <a href="/elonmusk/header_photo" aria-hidden="true" role="link" tabindex="-1" class="css-4rbku5 css-18t94o4 css-1dbjc4n r-1loqt21 r-1ny4l3l r-o7ynqc r-6416eg"><div class="css-1dbjc4n r-1adg3ll r-1udh08x" style=""><div class="r-1adg3ll r-13qz1uu" style="padding-bottom: 33.333333333333336%;"></div><div class="r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-ipm5af r-13qz1uu"><div aria-label="" class="css-1dbjc4n r-1p0dtai r-1mlwlqe r-1d2f490 r-1udh08x r-u8s1d r-zchlnj r-ipm5af r-417010"><div class="css-1dbjc4n r-1niwhzg r-vvn4in r-u6sd8q r-4gszlv r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-13qz1uu r-1wyyakw" style="background-image: url(&quot;https://pbs.twimg.com/profile_banners/44196397/1576183471/1500x500&quot;);"></div><img alt="" draggable="true" src="https://pbs.twimg.com/profile_banners/44196397/1576183471/1500x500" class="css-9pa8cd"></div></div></div></a>
+          </div>
           <div class="p-icon"></div>
         </div>
       </div>
